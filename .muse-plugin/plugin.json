@@ -13,6 +13,18 @@
       {
         "id": "observing-plan",
         "path": "skills/observing-plan/SKILL.md"
+      },
+      {
+        "id": "meteor-watch",
+        "path": "skills/meteor-watch/SKILL.md"
+      },
+      {
+        "id": "aurora-watch",
+        "path": "skills/aurora-watch/SKILL.md"
+      },
+      {
+        "id": "sun-moon-times",
+        "path": "skills/sun-moon-times/SKILL.md"
       }
     ],
     "mcpServers": [
