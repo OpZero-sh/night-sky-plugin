@@ -1,0 +1,17 @@
+{
+  "name": "night-sky",
+  "version": "1.0.0",
+  "description": "Plan a night outside around visible planets, moonlight, astronomical darkness, and the aurora outlook.",
+  "author": {
+    "name": "OpZero"
+  },
+  "homepage": "https://github.com/OpZero-sh/night-sky-plugin",
+  "repository": "https://github.com/OpZero-sh/night-sky-plugin",
+  "displayName": "Night Sky",
+  "documentationUrl": "https://github.com/OpZero-sh/night-sky-plugin#readme",
+  "privacyPolicyUrl": "https://opzero.sh/privacy",
+  "supportUrl": "https://opzero.sh/support",
+  "termsOfServiceUrl": "https://opzero.sh/terms",
+  "icon": "./assets/icon.png",
+  "license": "LicenseRef-OpZero-Plugin"
+}

@@ -1,0 +1,30 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "night-sky",
+  "version": "1.0.0",
+  "description": "Plan a night outside around visible planets, moonlight, astronomical darkness, and the aurora outlook.",
+  "author": {
+    "name": "OpZero",
+    "url": "https://opzero.sh"
+  },
+  "homepage": "https://github.com/OpZero-sh/night-sky-plugin",
+  "repository": "https://github.com/OpZero-sh/night-sky-plugin",
+  "license": "LicenseRef-OpZero-Plugin",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Night Sky",
+        "shortDescription": "Plan a night of stargazing",
+        "longDescription": "Plan a night outside around visible planets, moonlight, astronomical darkness, and the aurora outlook.",
+        "developerName": "OpZero",
+        "category": "Productivity",
+        "websiteURL": "https://github.com/OpZero-sh/night-sky-plugin",
+        "privacyPolicyURL": "https://opzero.sh/privacy",
+        "supportURL": "https://opzero.sh/support",
+        "termsOfServiceURL": "https://opzero.sh/terms",
+        "composerIcon": "./assets/icon.png",
+        "logo": "./assets/icon.png"
+      }
+    }
+  }
+}

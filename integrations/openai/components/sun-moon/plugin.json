@@ -1,0 +1,30 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "night-sky-sun-moon",
+  "version": "1.0.0",
+  "description": "Check astronomical twilight, moon phase or moonrise for a location and date.",
+  "author": {
+    "name": "OpZero",
+    "url": "https://opzero.sh"
+  },
+  "homepage": "https://sun-and-moon.mcp.opzero.sh/",
+  "repository": "https://github.com/OpZero-sh/night-sky-plugin",
+  "license": "LicenseRef-OpZero-Plugin",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Sun and Moon",
+        "shortDescription": "Find twilight and moonrise",
+        "longDescription": "Check astronomical twilight, moon phase or moonrise for a location and date.",
+        "developerName": "OpZero",
+        "category": "Productivity",
+        "websiteURL": "https://sun-and-moon.mcp.opzero.sh/",
+        "privacyPolicyURL": "https://sun-and-moon.mcp.opzero.sh/?page=privacy",
+        "supportURL": "https://sun-and-moon.mcp.opzero.sh/?page=support",
+        "termsOfServiceURL": "https://opzero.sh/terms",
+        "composerIcon": "./assets/icon.png",
+        "logo": "./assets/icon.png"
+      }
+    }
+  }
+}

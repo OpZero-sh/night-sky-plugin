@@ -1,0 +1,30 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "night-sky-aurora",
+  "version": "1.0.0",
+  "description": "Check the location-specific aurora outlook and upcoming geomagnetic forecast windows.",
+  "author": {
+    "name": "OpZero",
+    "url": "https://opzero.sh"
+  },
+  "homepage": "https://aurora-forecast.mcp.opzero.sh/",
+  "repository": "https://github.com/OpZero-sh/night-sky-plugin",
+  "license": "LicenseRef-OpZero-Plugin",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Aurora Forecast",
+        "shortDescription": "Check the aurora outlook",
+        "longDescription": "Check the location-specific aurora outlook and upcoming geomagnetic forecast windows.",
+        "developerName": "OpZero",
+        "category": "Productivity",
+        "websiteURL": "https://aurora-forecast.mcp.opzero.sh/",
+        "privacyPolicyURL": "https://aurora-forecast.mcp.opzero.sh/?page=privacy",
+        "supportURL": "https://aurora-forecast.mcp.opzero.sh/?page=support",
+        "termsOfServiceURL": "https://opzero.sh/terms",
+        "composerIcon": "./assets/icon.png",
+        "logo": "./assets/icon.png"
+      }
+    }
+  }
+}

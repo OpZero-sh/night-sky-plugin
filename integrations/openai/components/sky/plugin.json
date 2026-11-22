@@ -1,0 +1,30 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "night-sky-sky",
+  "version": "1.0.0",
+  "description": "Plan a planet or meteor viewing session for a given date and observing location.",
+  "author": {
+    "name": "OpZero",
+    "url": "https://opzero.sh"
+  },
+  "homepage": "https://night-sky-tonight.mcp.opzero.sh/",
+  "repository": "https://github.com/OpZero-sh/night-sky-plugin",
+  "license": "LicenseRef-OpZero-Plugin",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Night Sky Tonight",
+        "shortDescription": "Find visible planets",
+        "longDescription": "Plan a planet or meteor viewing session for a given date and observing location.",
+        "developerName": "OpZero",
+        "category": "Productivity",
+        "websiteURL": "https://night-sky-tonight.mcp.opzero.sh/",
+        "privacyPolicyURL": "https://night-sky-tonight.mcp.opzero.sh/?page=privacy",
+        "supportURL": "https://night-sky-tonight.mcp.opzero.sh/?page=support",
+        "termsOfServiceURL": "https://opzero.sh/terms",
+        "composerIcon": "./assets/icon.png",
+        "logo": "./assets/icon.png"
+      }
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "sky": {
+    "url": "https://night-sky-tonight.mcp.opzero.sh/mcp",
+    "allowed_tools": [
+      "sky_tonight",
+      "planet_positions",
+      "meteor_showers"
+    ]
+  },
+  "sun-moon": {
+    "url": "https://sun-and-moon.mcp.opzero.sh/mcp",
+    "allowed_tools": [
+      "sun_times",
+      "moon_times",
+      "moon_phase"
+    ]
+  },
+  "aurora": {
+    "url": "https://aurora-forecast.mcp.opzero.sh/mcp",
+    "allowed_tools": [
+      "aurora_outlook",
+      "kp_forecast",
+      "space_weather_alerts"
+    ]
+  }
+}

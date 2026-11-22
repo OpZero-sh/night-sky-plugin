@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "name": "night-sky",
+  "version": "1.0.0",
+  "displayName": "Night Sky",
+  "description": "Plan a night outside around visible planets, moonlight, astronomical darkness, and the aurora outlook.",
+  "compat": {
+    "source": "native",
+    "manifestDir": ".muse-plugin"
+  },
+  "capabilities": {
+    "skills": [
+      {
+        "id": "observing-plan",
+        "path": "skills/observing-plan/SKILL.md"
+      }
+    ],
+    "mcpServers": [
+      {
+        "id": "sky",
+        "transport": "http",
+        "url": "https://night-sky-tonight.mcp.opzero.sh/mcp"
+      },
+      {
+        "id": "sun-moon",
+        "transport": "http",
+        "url": "https://sun-and-moon.mcp.opzero.sh/mcp"
+      },
+      {
+        "id": "aurora",
+        "transport": "http",
+        "url": "https://aurora-forecast.mcp.opzero.sh/mcp"
+      }
+    ]
+  }
+}

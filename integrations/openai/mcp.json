@@ -1,0 +1,17 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/mcp.schema.json",
+  "mcpServers": {
+    "sky": {
+      "type": "streamable-http",
+      "url": "https://night-sky-tonight.mcp.opzero.sh/mcp"
+    },
+    "sun-moon": {
+      "type": "streamable-http",
+      "url": "https://sun-and-moon.mcp.opzero.sh/mcp"
+    },
+    "aurora": {
+      "type": "streamable-http",
+      "url": "https://aurora-forecast.mcp.opzero.sh/mcp"
+    }
+  }
+}

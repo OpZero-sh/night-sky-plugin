@@ -1,0 +1,16 @@
+{
+  "mcpServers": {
+    "sky": {
+      "type": "http",
+      "url": "https://night-sky-tonight.mcp.opzero.sh/mcp"
+    },
+    "sun-moon": {
+      "type": "http",
+      "url": "https://sun-and-moon.mcp.opzero.sh/mcp"
+    },
+    "aurora": {
+      "type": "http",
+      "url": "https://aurora-forecast.mcp.opzero.sh/mcp"
+    }
+  }
+}
