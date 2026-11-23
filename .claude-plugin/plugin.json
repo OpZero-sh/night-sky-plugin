@@ -13,12 +13,5 @@
   "supportUrl": "https://opzero.sh/support",
   "termsOfServiceUrl": "https://opzero.sh/terms",
   "icon": "./assets/icon.png",
-  "license": "LicenseRef-OpZero-Plugin",
-  "network": {
-    "hosts": [
-      "night-sky-tonight.mcp.opzero.sh",
-      "sun-and-moon.mcp.opzero.sh",
-      "aurora-forecast.mcp.opzero.sh"
-    ]
-  }
+  "license": "LicenseRef-OpZero-Plugin"
 }

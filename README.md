@@ -33,7 +33,7 @@ Each skill is a set of written instructions that Claude loads when a request mat
 
 In Cowork or Claude Code, the `viewing-window` agent compares several nights, times or sites for one target and returns them side by side with a pick. It can call only the nine read only tools of the three services listed below.
 
-This plugin has no hooks and starts no local process.
+This plugin has no hooks and runs no code on your machine.
 
 ## Sources and coverage
 
@@ -49,11 +49,12 @@ The plugin connects Claude to three hosted services over HTTPS. A request carrie
 - [sun-and-moon](https://sun-and-moon.mcp.opzero.sh/) at `sun-and-moon.mcp.opzero.sh` · [Privacy](https://sun-and-moon.mcp.opzero.sh/?page=privacy) · [Support](https://sun-and-moon.mcp.opzero.sh/?page=support)
 - [aurora-forecast](https://aurora-forecast.mcp.opzero.sh/) at `aurora-forecast.mcp.opzero.sh`, which reads the forecast and alerts from NOAA · [Privacy](https://aurora-forecast.mcp.opzero.sh/?page=privacy) · [Support](https://aurora-forecast.mcp.opzero.sh/?page=support)
 
-The repository also holds files for other clients. The plugin never runs them. They do something only if you run them yourself from a checkout.
+The repository also holds configuration files for other clients: `integrations/grok-servers.json` and the `integrations/openai` folder. The plugin never uses them and they are not programs.
 
-- `scripts/build_openai.py` reads files in this repository and writes ZIP packages to the folder you name. It makes no network request.
-- `integrations/grok_example.py` prints a request preview when run with `--dry-run`. Without that flag it reads `XAI_API_KEY`, and `XAI_MODEL` if set, from your environment and sends your question and the three service URLs to the xAI API at `api.x.ai`.
-- `integrations/grok-servers.json` and the `integrations/openai` folder are configuration read by those two scripts.
+The two scripts that read them are not in this repository. They are in the catalog repository, [OpZero-sh/plugins](https://github.com/OpZero-sh/plugins), and do something only if you clone it and run them yourself.
+
+- `tools/build_openai.py` reads the skills, the license, the product icon and the `integrations/openai` folder from a checkout of this repository and writes ZIP packages to the folder you name. It makes no network request.
+- `tools/grok_example.py` reads `integrations/grok-servers.json` and prints a request preview when run with `--dry-run`. Without that flag it reads `XAI_API_KEY`, and `XAI_MODEL` if set, from your environment and sends your question and the three service URLs to the xAI API at `api.x.ai`.
 
 ## In use
 
